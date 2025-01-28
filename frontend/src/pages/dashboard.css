@@ -1,0 +1,44 @@
+
+body{
+
+    background-color: #f4f4f4;
+
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+.dashboard-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+  }
+  
+  .card:hover {
+    background: #007bff;
+    color: black;
+    border-color: #007bff;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
