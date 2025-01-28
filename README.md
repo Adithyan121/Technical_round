@@ -1,6 +1,4 @@
 
-Here's a README for your GitHub project:
-
 User Dashboard with MERN Stack
 This project is a user dashboard built with the MERN Stack (MongoDB, Express.js, React.js, Node.js) that includes authentication and a simple API to fetch user data. The app allows users to register, log in, and view their user details, with the backend secured using JWT and password hashing.
 
