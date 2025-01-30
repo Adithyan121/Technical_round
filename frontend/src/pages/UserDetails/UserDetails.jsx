@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import './userDetails.css';
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import "./userDetails.css";
 
 const UserDetails = () => {
   const { id } = useParams();
@@ -40,6 +40,29 @@ const UserDetails = () => {
           <tr>
             <th>Website</th>
             <td>{user.website}</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>
+              {user.address.street}, {user.address.suite}, {user.address.city},{" "}
+              {user.address.zipcode}
+            </td>
+          </tr>
+          <tr>
+            <th>Geo Location</th>
+            <td>
+              Latitude: {user.address.geo.lat}, Longitude: {user.address.geo.lng}
+            </td>
+          </tr>
+          <tr>
+            <th>Company</th>
+            <td>
+              <strong>{user.company.name}</strong>
+              <br />
+              {user.company.catchPhrase}
+              <br />
+              {user.company.bs}
+            </td>
           </tr>
         </tbody>
       </table>

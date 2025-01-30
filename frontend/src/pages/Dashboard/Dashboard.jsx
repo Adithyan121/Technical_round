@@ -9,7 +9,7 @@ const Dashboard = () => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((data) => {
-        const filteredUsers = data.filter((user) => user.id >= 1 && user.id <= 9);
+        const filteredUsers = data.filter((user) => user.id >= 1 && user.id <= 20);
         setUsers(filteredUsers);
       });
   }, []);
