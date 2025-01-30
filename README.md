@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 **User Dashboard with MERN Stack**
 
@@ -40,10 +41,12 @@ Create a .env file in the backend directory and add the following environment va
 
 PORT=5000
 
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI = Mongo_DB_URL
 
-JWT_SECRET=your_jwt_secret_key
+JWT_SECRET = jwt_secret_key
 =======
+=======
+>>>>>>> 1333ac99506f95bfc0f4f89b0e6bcfdb57342794
 # User Dashboard with MERN Stack
 
 This project is a user dashboard built with the MERN Stack (MongoDB, Express.js, React.js, Node.js) that includes authentication and a simple API to fetch user data. The app allows users to register, log in, and view the users details, with the backend secured using JWT and password hashing.
@@ -96,4 +99,7 @@ MONGO_URI= Mongo_DB_URL
 JWT_SECRET= your_secret_key 
 ```
 
+<<<<<<< HEAD
 >>>>>>> 1333ac9 (initial commit)
+=======
+>>>>>>> 1333ac99506f95bfc0f4f89b0e6bcfdb57342794
